@@ -1,6 +1,6 @@
 import Navbar from "@/components/navbar";
 import { useEffect, useState } from "react";
-
+import { useContext } from "react";
 import { SelectedPage } from "@/shared/types";
 
 function App() {
